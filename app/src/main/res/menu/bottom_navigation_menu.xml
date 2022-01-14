@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/nav_study"
+            android:title="勉強"
+            android:icon="@drawable/study"/>
+        <item
+            android:id="@+id/nav_main"
+            android:title="ホーム"
+            android:icon="@drawable/home"/>
+        <item
+            android:id="@+id/nav_break"
+            android:title="部活"
+            android:icon="@drawable/home"/>
+</menu>
