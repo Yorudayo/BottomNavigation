@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "255327400653",
+    "project_id": "gakko-seikatsu",
+    "storage_bucket": "gakko-seikatsu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255327400653:android:84c3aaecaa85c61512af84",
+        "android_client_info": {
+          "package_name": "android.lifeistech.bottomnavigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255327400653-26rpike5pre4to6u9bp29kfd4brsd6vf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe2GsDKVtn2CRgpjiD2dYwuWTu8xqnB4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255327400653-26rpike5pre4to6u9bp29kfd4brsd6vf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255327400653:android:258fac909460afcb12af84",
+        "android_client_info": {
+          "package_name": "android.lifeistech.school2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255327400653-26rpike5pre4to6u9bp29kfd4brsd6vf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe2GsDKVtn2CRgpjiD2dYwuWTu8xqnB4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255327400653-26rpike5pre4to6u9bp29kfd4brsd6vf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
