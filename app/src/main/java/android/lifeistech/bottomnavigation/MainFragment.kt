@@ -15,7 +15,10 @@ class MainFragment : Fragment() {
         super.onCreateView(inflater, container, savedInstanceState)
         return inflater.inflate(R.layout.fragment_main, container, false)
 
-        //Intent
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
         fab.setOnClickListener{
             val intent = Intent(getActivity(),WriteActivity::class.java)
             startActivity(intent)

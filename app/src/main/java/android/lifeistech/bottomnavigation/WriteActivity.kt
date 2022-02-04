@@ -11,7 +11,7 @@ class WriteActivity : AppCompatActivity() {
         setContentView(R.layout.activity_write)
 
         saveButton.setOnClickListener{
-            val intent = Intent(this,MainFragment::class.java)
+            val intent = Intent(this,MainActivity::class.java)
             startActivity(intent)
         }
     }
