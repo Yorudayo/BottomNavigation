@@ -1,6 +1,5 @@
 package android.lifeistech.bottomnavigation
 
-import android.app.PendingIntent.getActivity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -12,7 +11,7 @@ class WriteActivity : AppCompatActivity() {
         setContentView(R.layout.activity_write)
 
         saveButton.setOnClickListener{
-            val intent = Intent(this,fragment_main::class.java)
+            val intent = Intent(this,MainFragment::class.java)
             startActivity(intent)
         }
     }

@@ -5,15 +5,15 @@
         app:startDestination="@id/nav_main">
 
         <fragment android:id="@+id/nav_study"
-            android:name="android.lifeistech.bottomnavigation.fragment_study"
+            android:name="android.lifeistech.bottomnavigation.StudyFragment"
             android:label="Fragment1"/>
 
         <fragment android:id="@+id/nav_main"
-            android:name="android.lifeistech.bottomnavigation.fragment_main"
+            android:name="android.lifeistech.bottomnavigation.MainFragment"
             android:label="Fragment2"/>
 
         <fragment android:id="@+id/nav_break"
-            android:name="android.lifeistech.bottomnavigation.fragment_break"
+            android:name="android.lifeistech.bottomnavigation.BreakFragment"
             android:label="Fragment3"/>
 
 </navigation>
