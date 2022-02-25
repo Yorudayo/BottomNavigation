@@ -24,12 +24,6 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment)
         setupWithNavController(bottom_navigation, navController)
 
-        val db = Firebase.firestore
-        val taskAdapter = TaskAdapter()
-        binding.recyclerView.adapter = taskAdapter
-        binding.recyclerView.layoutManager =
-            LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
-
     }
 
 

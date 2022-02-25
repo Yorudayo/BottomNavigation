@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_main.*
@@ -24,8 +25,8 @@ class WriteActivity : AppCompatActivity() {
         val db = Firebase.firestore
 
         val taskAdapter = TaskAdapter()
-        val RecyclerView = findViewById(R.id.)
-        binding.RecyclerView.adapter = taskAdapter
+        val RecyclerView =
+        binding
         binding.RecyclerView.layoutManager =
             LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
