@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import java.text.SimpleDateFormat
 import java.util.*
 
-class TaskAdapter : ListAdapter<Task, TaskViewHolder>(diffUtilItemcallback) {
+class TaskAdapter : ListAdapter<Task, TaskViewHolder>(diffUtilItemCallback) {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TaskViewHolder {
         val view = TaskListItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return TaskViewHolder(view)
@@ -31,7 +31,7 @@ class TaskViewHolder(
     }
 }
 
-private val diffUtilItemcallback = object : DiffUtil.ItemCallback<Task>() {
+private val diffUtilItemCallback = object : DiffUtil.ItemCallback<Task>() {
     override fun areContentsTheSame(oldItem: Task, newItem: Task): Boolean {
         return oldItem == newItem
     }
