@@ -25,10 +25,9 @@ class WriteActivity : AppCompatActivity() {
         val db = Firebase.firestore
 
         val taskAdapter = TaskAdapter()
-        val RecyclerView =
-        binding
-        binding.RecyclerView.layoutManager =
-            LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
+        //binding.RecyclerView.adapter = taskAdapter
+        //binding.RecyclerView.layoutManager =
+        //    LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
         db.collection(TASKS_PATH)
             .get()
@@ -44,7 +43,7 @@ class WriteActivity : AppCompatActivity() {
         binding.saveButton.setOnClickListener{
             val task = Task(
                 title = binding.titleEditText.text.toString(),
-                summarytext = binding.summaryEditText.toString(),
+                summarytext = binding.summaryEditText.text.toString(),
             )
 
             db.collection(TASKS_PATH)
