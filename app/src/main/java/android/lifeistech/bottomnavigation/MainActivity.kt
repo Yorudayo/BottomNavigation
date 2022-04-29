@@ -1,6 +1,8 @@
 package android.lifeistech.bottomnavigation
 
+import android.content.Intent
 import android.lifeistech.bottomnavigation.databinding.ActivityMainBinding
+import android.lifeistech.bottomnavigation.databinding.ActivityWriteBinding
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -24,7 +26,15 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment)
         setupWithNavController(bottom_navigation, navController)
 
+        val db = Firebase.firestore
+
+        val taskAdapter = TaskAdapter()
+
     }
-
-
+    companion object {
+        private const val ADD_TAG = "add_task"
+        private const val READ_TAG = "read_task"
+        private const val TASKS_PATH = "tasks"
+    }
 }
+

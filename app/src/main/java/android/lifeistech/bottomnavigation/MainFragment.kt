@@ -34,6 +34,7 @@ class MainFragment : Fragment() {
         val linearLayoutManager = LinearLayoutManager(view.context)
         RecyclerView.layoutManager = linearLayoutManager
         RecyclerView.adapter = taskAdapter
+
         fab.setOnClickListener{
             val intent = Intent(getActivity(),WriteActivity::class.java)
             startActivity(intent)
